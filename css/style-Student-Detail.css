@@ -1,0 +1,449 @@
+body {
+ 	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+ }
+
+#logo {
+  width:100px;
+  height: 80px;
+}
+
+#left {
+  display:flex;
+  width: 40%;
+  margin: 50px;
+  align-items:center;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color:gray;
+  font-family: sans-serif;
+}
+
+#right {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  }
+
+#login  {
+  display:flex;
+  flex-direction:row;
+}
+
+#login a,p {
+  margin: .5%;
+  margin-right: 10px;
+  color: #C8C8C8;
+ }
+
+.icon {
+  width:60px;
+}
+
+#sbportfolio {
+  font-size: 1.5rem;
+  color: grey;
+   margin-left: 55px;
+}
+
+.gallery {
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+
+.port {
+  display:flex;
+  background-color: grey;
+  width: 250px;
+  height: 150px;;
+  margin: 1%;
+  justify-content:center;
+  margin-left: 25px;
+}
+
+.column {
+  flex-direction:row;
+  display:flex;
+  justify-content: center;
+}
+
+#one {
+  background: url(https://image.freepik.com/free-vector/vector-geometric-illustration-octopus-cosmic-planets_1441-569.jpg);
+    background-size: cover;
+    background-position:center;
+ }
+
+#two {
+  background: url(https://image.freepik.com/free-psd/brochure-design-template-mockup_53876-57943.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#three {
+  background: url(https://c.pxhere.com/photos/01/06/business_still_life_office_student_keyboard_creativity_work_desk_work-731502.jpg!d);
+  background-size: cover;
+}
+
+#four {
+  background: url(https://image.freepik.com/free-vector/vector-illustration-theme-surf-rider_1159-5314.jpg);
+  background-size: cover;
+}
+
+#five {
+  background: url(https://image.freepik.com/free-vector/colorful-poster-set_53876-85116.jpg);
+  background-size:cover;
+}
+
+#six {
+  background:url(https://image.freepik.com/free-vector/skull-astronaut_72107-44.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+#seven {
+  background: url(https://image.freepik.com/free-vector/creative-idea_53876-80655.jpg);
+  background-size: cover;
+}
+
+#eight {
+  background:url(https://image.freepik.com/free-vector/set-famous-landmark-vectors_53876-77150.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+
+#top{
+  display:flex;
+  flex-direction: row;
+}
+
+
+#leftproject {
+  display:flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  margin: 10px 20px 10px 20px;
+}
+
+#rightproject {
+  width: 30%;
+  display:flex;
+  flex-direction: column;
+  margin: 10px 20px 10px 20px;
+}
+
+.feature {
+  height: 400px; 
+  display:flex;
+  background:url(https://images.pexels.com/photos/1353355/pexels-photo-1353355.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-size:cover;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto ;
+  border-style: solid;
+  border-width:5px;
+  border-color:white;
+ }
+
+#slider {
+  font-family: sans-serif;
+  color: white;
+  font-size: 2em;
+}
+ 
+.arrow {
+  width: 80px;
+  height: 80px;
+  justify-content:space-between;
+  display: flex;
+}
+
+img[alt="leftarrow"] {
+  position: relative;
+  left: -40px;
+}
+
+img[alt="rightarrow"] {
+  position: relative;
+  right: -40px;
+}
+
+.title { 
+  display:flex;
+  justify-content: flex-end;
+  height: 40px;
+  background-color: #404040;
+  margin: 0 auto;
+  padding: 15px;
+  font-family:sans-serif;
+  color:white;
+}
+
+#threeimages {
+  display:flex;
+  flex-direction:row;
+  margin: 0 auto;
+}
+
+.threeimage {
+  width: 225px;
+  height: 110px;
+  background-color: grey;
+  diplay:flex;
+  flex-direction:row;
+  margin: 1%;
+  border: solid white 8px;
+}
+
+#w {
+  background:url(https://images.pexels.com/photos/1327214/pexels-photo-1327214.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-size:cover;
+  background-position:center;
+ }
+
+#t {
+  background:url(https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-size:cover;
+  background-position:center;
+ }
+
+#f {
+  background:url(https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+   background-size:cover;
+  background-position:center;
+}
+
+#profile p {
+  display:flex;
+  justify-content:flex-end;
+  line-height: 10px;
+  font-size: .75rem;
+ }
+
+#profile h3 {
+  color: grey;
+  display:flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+
+#userinfo {
+  background-color:white;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: center;
+  
+ }
+
+.socialmediatags {
+  display:flex;
+  flex-direction:row;
+  width: 30px;
+  height: 30px; 
+}
+
+#profilepic {
+  width: 100px;
+  height: 100px;
+  background:url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p320x320/13906920_1057895860912451_6528142048387746424_n.jpg?_nc_cat=106&_nc_ht=scontent-sea1-1.xx&oh=76e8f7e8da4cc73407bcca2a8ee4e28e&oe=5D1CF9DB);
+  background-size:cover;
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+#projectinfo {
+  font-family: sans-serif;
+  background-color:white;
+  margin-top: 20px;
+  padding: 15px;
+  color: grey;
+  line-height: 22px;
+}
+
+footer {
+  text-decoration: none;
+	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	color: white;
+	background-color: #666;
+	background-blend-mode: overlay;
+}
+
+#tweet {
+ box-shadow: 5px 5px grey ;
+ background:#404040;
+ color:white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#tweet p {
+  color:white;
+  font-family: sans-serif;
+}
+
+#timeupdate {
+  font-size: .5rem;
+}
+
+img[alt="bird"] {
+  height: 30px;
+  width: 35px;
+  padding: 10px;
+}
+
+#footer-columns {
+  display: flex;
+  padding: 15px;
+}
+
+.footercolumn {
+  width: 35%;
+  margin: 20px;
+  flex-wrap: no-wrap;
+}
+
+.footercolumn a {
+  color: #404040;
+  font-family: sans-serif;
+}
+
+.footercolumn p {
+  color: white;
+  line-height: 22px;
+}
+.footercolumn h3,p,img {
+  margin:9px;
+}
+
+#footernav {
+  display:flex;
+  flex-wrap: no-wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: sans-serif;
+ }
+
+#footernav a {
+  font-size: .75rem;
+}
+#footernav h3,p{
+  font-family:sans-serif;
+}
+
+h3 {
+  font-family: sans-serif;
+  color: #404040;
+}
+
+#footerfind {
+  color: white;
+}
+
+.logofooter {
+  width: 100px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color:grey;
+  padding: 7px;
+}
+
+.searchbar {
+  height: 30px;
+  width: 200px;
+  background-color:white;
+  display:flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.searchbar p {
+  color: #404040;
+}
+
+#search {
+  width: 30px;
+  display:flex;
+  padding: 1px;
+}
+
+.footgal {
+  flex-direction:row;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footergallery {
+  display:flex;
+  width: 70px;
+  height: 40px;
+  background-color: grey;
+  margin: 1%;
+  justify-content:center;
+}
+
+#j {
+  background:url(https://image.freepik.com/free-vector/company-brochure-design-with-progress-symbols-flat-isolated-vector-illustration_1284-16069.jpg);
+   background-size:cover;
+}
+
+#k {
+  background:url(https://image.freepik.com/free-vector/set-famous-landmark-vectors_53876-77150.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+#l {
+   background: url(https://image.freepik.com/free-psd/brochure-design-template-mockup_53876-57943.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#m {
+    background: url(https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-size: cover;
+}
+
+#n {
+   background: url(https://image.freepik.com/free-vector/colorful-poster-set_53876-85116.jpg);
+  background-size:cover;
+ }
+
+#o {
+  background:url(https://image.freepik.com/free-vector/skull-astronaut_72107-44.jpg);
+  background-size:cover;
+  background-position:center;
+ }
+
+#p{
+  background: url(https://image.freepik.com/free-vector/vector-illustration-theme-surf-rider_1159-5314.jpg);
+  background-size: cover;
+}
+
+#q {
+ background:url(https://image.freepik.com/free-vector/photographer-sketch-portrait_1284-4044.jpg);
+  background-size:cover;
+  background-position:center;
+}
